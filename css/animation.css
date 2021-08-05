@@ -1,9 +1,9 @@
 
 .fadeIn{
-    animation-duration: 4s;
+    animation-duration: 2s;
     animation-name: fadeIn;
     animation-fill-mode: both;
-    -webkit-animation-duration: 4s;
+    -webkit-animation-duration: 2s;
     -webkit-animation-name: fadeIn;
     -webkit-animation-fill-mode: both;
 }
@@ -16,14 +16,14 @@
     to{
         opacity: 100;
     }
-}º
+}
 
 
 .fadeIndown{
-    animation-duration: 750ms;
+    animation-duration: 1.5s;
     animation-name: fadeIndown;
     animation-fill-mode: both;
-    -webkit-animation-duration: 750ms;
+    -webkit-animation-duration: 1.5s;
     -webkit-animation-name: fadeIndown;
     -webkit-animation-fill-mode: both;
 }
@@ -36,7 +36,7 @@
         transform: translate3d(0, -100%, 0);
         }
     to{
-        opacity: 1;
+        opacity: 100;
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
     }
