@@ -1,0 +1,297 @@
+
+@media screen  and (min-width: 1400px) and (max-width: 1599px) {
+
+    html , body {
+        scroll-behavior: smooth ;
+        font-family: 'Raleway';
+    }
+    
+    header{
+
+        position: fixed;
+      
+        top: 0;
+        height: 50px;
+        
+        
+      
+    }
+
+    
+
+    nav {
+    
+        display: flex;
+        justify-content: space-between;
+        height: 65px;
+        background-color: rgba(57, 143, 158, 0.664);
+        align-items: center;
+        object-position: top;
+    
+    }
+
+    .__nav_options-item{
+   
+        overflow: hidden;
+           
+        font-size: 15px;
+       }
+      
+
+       .__nav_options-item-container{
+      
+           position: relative;
+           z-index: 5;
+           background-color: rgba(0, 0, 0, 0.781);
+           background-color: rgba(0, 0, 0, 0.158);
+           box-shadow: 0 -1px 4px black;
+           justify-content: center;
+           display: grid;
+           grid-template-rows: repeat(2,1fr);
+           grid-template-columns: repeat(2,1fr);
+           transition: 1s;
+           row-gap: 20px  ;
+       
+       }
+   
+       .__nav_options-item-container__clase_pa_closear{
+           padding: 20px;      
+          height: 90px;
+          transition: all 1s;
+   
+       }
+   
+
+
+       .degree{
+
+        height: 0;  overflow: hidden;   position: absolute;
+       }
+
+    .about_container{
+        margin-top: 65px;
+        display: grid;
+        padding: 80px 150px 0px 150px; 
+        background: rgb(0,0,0);
+        background: linear-gradient(180deg, rgba(57, 143, 158, 0.664) 45%, 
+        rgba(218, 218, 218, 0) 100%);
+        grid-template-columns: 50px 1fr 1fr 50px ;
+        grid-template-rows: 550px ;
+    }
+
+    #noexiste{
+        
+        color: rgb(226, 226, 226);   text-shadow: 1px 2px 3px black;
+        position: relative;             top: 50px;
+        grid-column: 3/4;
+        
+        grid-row: 1/2;
+
+    }    
+
+
+    .about_info{
+
+        
+      
+       
+        /* justify-items: center; */
+        grid-column: 2/3;
+        grid-row: 1/2;
+       
+    }
+
+    .box_button{
+        position: relative;     top: 50px;
+        grid-column: 3/4;
+        grid-row: 1/2;
+        margin: auto;
+
+    }
+    .about_contactme{
+        
+        width: 180px;
+        transition: all .5s;
+        
+
+    }
+    .about_contactme:hover{
+
+        transition: all .5s;
+        color: white;      background-color: teal;
+        border-radius: 10px;
+        height: 11%; width: 125%;
+        cursor: pointer;
+    
+    }
+    
+    
+
+
+    .foto_container{
+        justify-content: center;
+    }
+
+    .about_info_text{
+        align-self: center;         position: relative;
+        font-size: 25px;            top: -80px;
+        color: white;        font-weight: 100;
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+   
+    .foto_container img{
+  
+        position: relative;
+        border-radius: 15%;      box-shadow: 5px 5px rgb(45, 70, 107);
+         width: 450px;   height: 450px;
+        
+     }
+
+   
+        .uil-message{
+
+            padding-left: 8px;
+        }
+
+
+
+    #foto1{
+        height: 0;  position: absolute;
+        overflow: hidden;
+    }
+
+  
+
+
+     .skill_name1, .skill_name1_content{
+
+    margin: 100px 400px 100px 400px;
+    }
+
+   
+    .skill_name1_content{
+        font-size: 20px;  
+        margin-top: -50px;
+        margin-bottom: -80px;      
+    }
+
+    .estudios_colegio{
+        padding-top: 0px;
+    }
+
+    .estudios_certificados{
+        position: relative;
+        display: grid;
+        grid-template-rows: repeat(1,60px);
+        grid-template-columns: 350px 1fr 80px;
+    }
+
+
+
+
+.experiencia_title_CIMA{
+
+    transition: all 1s;
+   
+}
+
+
+.experiencia_title_TELCONET{
+
+    transition: all 1s;
+   
+}
+
+
+.experiencia_title_CNT{
+
+    transition: all 1s;
+   
+}
+
+
+.experiencia_title_ULTRATEL{
+
+    transition: all 1s;
+   
+}
+
+
+
+
+
+   .descr_ULTRATEL{
+       
+    
+    background-color: rgb(250, 0, 0); 
+  
+    }
+
+
+    .descr_CIMA{
+    
+        clip-path: circle(30%);
+        display: flex;          flex-direction: column;
+        align-items: center;    justify-self: center;
+        padding-top: 100px;     font-size: 15px;
+        transition: all 1s;
+        height: 70%; width: 90vw;
+        z-index: 10;            position: absolute;
+        background-color: rgb(0, 0, 0); /* Fallback color */
+        background-color: rgba(110, 131, 75, 0.849); /* Black w/opacity/see-through */
+        color: white;       font-weight: bold;
+        box-shadow: 5px 5px 15px rgb(94, 107, 184);
+    
+    
+    }
+    .descr_TELCONET{
+        clip-path: circle(35%);
+        display: flex;          flex-direction: column;
+        align-items: center;    justify-self: center;
+        padding-top: 100px;     font-size: 15px;
+        transition: all 1s;
+        height: 70%; width: 90vw;
+        z-index: 10;            position: absolute;
+        background-color: rgb(0, 0, 0); /* Fallback color */
+        background-color: rgba(131, 75, 117, 0.849); /* Black w/opacity/see-through */
+        color: white;       font-weight: bold;
+        box-shadow: 5px 5px 15px rgb(94, 107, 184);
+    
+    
+    }
+    .descr_ULTRATEL{
+        clip-path: circle(30%);
+        
+        display: flex;          flex-direction: column;
+        align-items: center;    justify-self: center;
+        padding-top: 100px;     font-size: 15px;
+        transition: all 1s;
+        height: 70%; width: 90vw;
+        z-index: 10;            position: absolute;
+        background-color: rgb(0, 0, 0); /* Fallback color */
+        background-color: rgba(131, 123, 75, 0.849); /* Black w/opacity/see-through */
+        color: white;       font-weight: bold;
+        box-shadow: 5px 5px 15px rgb(94, 107, 184);
+    
+    
+    }
+    .descr_CNT{
+        clip-path: circle(55%);
+        font-size: 14px;   
+        display: flex;          flex-direction: column;
+        align-items: center;    justify-self: center;
+        padding-top: 80px;      
+        transition: all 1s;
+        height: 75%; width: 90vw;
+        z-index: 10;            position: absolute;
+        background-color: rgb(0, 0, 0); /* Fallback color */
+        background-color: rgba(75, 131, 83, 0.527); /* Black w/opacity/see-through */
+        color: white;       font-weight: bold;
+        box-shadow: 5px 5px 15px rgb(94, 107, 184);
+    
+    
+    }
+
+    
+}

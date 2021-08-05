@@ -1,0 +1,428 @@
+
+
+/*<!--------------------------------- EXPERIENCIA ------------------------------>*/
+
+.experiencia_container{
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    width: 94%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr 20px 1fr;
+    grid-template-rows: repeat(5,150px);
+    
+}
+
+.opacity{
+    transition: 1s;
+    opacity: 40%;
+}
+
+
+
+.linea_divisora{
+    border-radius: 100%;
+    margin-top: 65px;
+    position: absolute ;
+    z-index: 2;
+    justify-self: center;
+    background-color: rgb(0, 0, 0);
+    grid-column: 2/3;
+    width: 4px;
+    height: 90%;
+}
+.cuadro{
+    z-index: 4;
+    align-self: center;
+    justify-self: center;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    width: 20;        height: 20;
+    border-radius: 100%;        background-color: rgb(238, 142, 17);
+}
+.cuadro2{
+    z-index: 4;
+    align-self: center;
+    justify-self: center;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    width: 20;        height: 20;
+    border-radius: 100%;         background-color: rgb(88, 182, 159);
+}
+.cuadro3{
+    z-index: 4;
+    align-self: center;
+    justify-self: center;
+    grid-row: 3/4;
+    grid-column: 2/3;
+    width: 20;        height: 20;
+    border-radius: 100%;         background-color: rgb(88, 182, 159);
+}
+.cuadro4{
+    z-index: 4;
+    align-self: center;
+    justify-self: center;
+    grid-row: 4/5;
+    grid-column: 2/3;
+    width: 20;        height: 20;
+    border-radius: 100%;         background-color: rgb(88, 182, 159);
+}
+
+.bttonCloseJobs{
+   /* offset-x | offset-y | blur-radius | spread-radius | color */
+     border: 0;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: rgba(142, 160, 194, 0.753);
+    width: 150px;   height: 40px;   border-radius: 5px;
+    color: white;   font-weight: 600;   letter-spacing: 2px;
+    
+}
+
+.uil-angle-double-right{
+    font-size: 35px;            color: rgb(95, 196, 255);
+    position: relative;
+    top: 6px;
+}
+
+.descr_CIMA{
+    
+    border-radius: 5px;
+    display: flex;          flex-direction: column;
+    align-items: center;    justify-self: center;
+    padding-top: 100px;     font-size: 15px;
+    transition: all 1s;
+    height: 70%; width: 90vw;
+    z-index: 10;            position: absolute;
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(110, 131, 75, 0.849); /* Black w/opacity/see-through */
+    color: white;       font-weight: bold;
+    box-shadow: 5px 5px 15px rgb(94, 107, 184);
+
+
+}
+
+.descr_CIMA p{
+    
+    padding:0px 20px 0 20px;
+
+
+}
+.descr_CIMA h4{
+    
+    letter-spacing: 3px;
+    font-size: 25px;    
+    text-shadow: 5px 5px 25px rgb(95, 196, 255);
+
+}
+
+.descr_CIMA_closed{
+
+    
+    clip-path: circle(25%);
+    display: flex;          flex-direction: column;
+    align-items: center;    justify-self: center;
+    width: 100%;
+    transition: all .5s;
+    position: absolute;
+    height: 0%;
+    overflow: hidden;
+
+}
+.descr_ULTRATEL h4{
+
+
+    margin-bottom: 50px;
+}
+.descr_ULTRATEL{
+    border-radius: 5px;
+    
+    display: flex;          flex-direction: column;
+    align-items: center;    justify-self: center;
+    padding-top: 100px;     font-size: 15px;
+    transition: all 1s;
+    height: 70%; width: 90vw;
+    z-index: 10;            position: absolute;
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(131, 123, 75, 0.849); /* Black w/opacity/see-through */
+    color: white;       font-weight: bold;
+    box-shadow: 5px 5px 15px rgb(94, 107, 184);
+
+
+}
+.descr_ULTRATEL p{
+    
+    padding:0px 20px 20px 20px;
+
+
+}
+.descr_ULTRATEL h4{
+    
+    letter-spacing: 3px;
+    font-size: 25px;    
+    text-shadow: 5px 5px 25px rgb(95, 196, 255);
+
+}
+
+.descr_ULTRATEL_closed{
+    clip-path: circle(25%);
+    display: flex;          flex-direction: column;
+    align-items: center;    justify-self: center;
+    width: 100%;
+    transition: all .5s;
+    position: absolute;
+    height: 0%;
+    overflow: hidden;
+
+}
+
+.descr_TELCONET{
+    border-radius: 5px;
+    display: flex;          flex-direction: column;
+    align-items: center;    justify-self: center;
+    padding-top: 100px;     font-size: 15px;
+    transition: all 1s;
+    height: 70%; width: 90vw;
+    z-index: 10;            position: absolute;
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(131, 75, 117, 0.849); /* Black w/opacity/see-through */
+    color: white;       font-weight: bold;
+    box-shadow: 5px 5px 15px rgb(94, 107, 184);
+
+
+}
+
+.descr_TELCONET p{
+    
+    padding:0px 20px 0 20px;
+
+
+}
+.descr_TELCONET h4{
+    
+    letter-spacing: 3px;
+    font-size: 25px;    
+    text-shadow: 5px 5px 25px rgb(95, 196, 255);
+
+}
+
+.descr_TELCONET_closed{
+    clip-path: circle(25%);
+    display: flex;          flex-direction: column;
+    align-items: center;    justify-self: center;
+    transition: all .5s;
+    position: absolute;
+    height: 0%;
+    overflow: hidden;
+
+}
+
+.descr_CNT{
+    border-radius: 5px;
+    display: flex;          flex-direction: column;
+    align-items: center;    justify-self: center;
+    padding-top: 80px;     font-size: 15px;
+    transition: all 1s;
+    height: 75%; width: 90vw;
+    z-index: 10;            position: absolute;
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(75, 131, 83, 0.849); /* Black w/opacity/see-through */
+    color: white;       font-weight: bold;
+    box-shadow: 5px 5px 15px rgb(94, 107, 184);
+
+
+}
+
+.descr_CNT p{
+    
+    padding: 0px 20px 0 20px;
+
+
+}
+.descr_CNT h4{
+    
+
+    letter-spacing: 3px;
+    font-size: 25px;    
+    text-shadow: 5px 5px 25px rgb(95, 196, 255);
+
+}
+
+.descr_CNT_closed{
+    clip-path: circle(25%);
+    display: flex;          flex-direction: column;
+    align-items: center;    justify-self: center;
+    transition: all .5s;
+    position: absolute;
+    height: 0%;
+    overflow: hidden;
+
+}
+
+
+
+
+.experiencia_title_CIMA{
+
+    display: block;
+   
+    grid-column: 1/2;
+    grid-row: 1/2; 
+   
+    
+
+}
+.experiencia_company{
+    
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    
+    
+
+}
+
+.experiencia_job{
+    
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    
+
+}
+
+.spani{
+
+    display: block;
+    border-top: 2px dotted rgba(107, 106, 106, 0.795);
+    border-bottom: 2px dotted rgba(107, 106, 106, 0.795);
+    
+    /* background-color: rgb(134, 194, 212); */
+    text-align: center;
+    font-weight: bold;
+  
+
+
+}
+
+.spani span{
+
+   
+    align-items: center;
+ 
+  
+
+
+}
+
+.uil-sort-amount-down{
+
+    position: relative;
+    padding-top: -200px;
+    font-size: 25px;
+    color: rgb(61, 108, 114);
+
+}
+
+
+.experiencia_title_ULTRATEL{
+
+  
+    display: block;
+    grid-column: 3/4;
+    grid-row:2/3; 
+   
+
+}
+
+
+
+
+.experiencia_title_TELCONET{
+
+  
+    display: block;
+    grid-column: 1/2;
+    grid-row:3/4; 
+   
+
+}
+
+.experiencia_title_CNT{
+
+  
+    display: block;
+    grid-column:3/4;
+    grid-row: 4/5; 
+   
+
+}
+
+
+.uil_derecha{
+
+    align-self: center;
+    font-size: 30px;
+    color: navy;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    outline: 2px solid red;
+
+}
+
+.company_title_derecha{
+
+    text-align: center;
+    outline: 2px solid red;
+    font-size: 18px;
+    font-weight: 900;
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+}
+
+
+.job_position_derecha{
+
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 30px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+}
+
+.experiencia_title3{
+
+  
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 3/4;
+   
+    outline: 2px solid red;
+    grid-template-columns:  1fr 4px;
+    grid-template-rows: 20px 1fr 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*<!----------------------------- ************  ------------------------------>*/
+
+
+
+
+
+
+

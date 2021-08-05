@@ -1,0 +1,61 @@
+.container{
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 70px;
+
+}
+
+.row{
+    display: flex;
+    
+   
+}
+
+.col-1{
+    width: 20%;
+}
+
+.col-2{
+    width: 40%;
+    align-self: center;
+}
+
+
+.col-3{
+    width: 60%;
+    font-size: 20px;
+}
+
+.col-4{
+    width: 80%;
+}
+
+.col-5{
+    width: 100%;
+    
+    
+}
+
+.col-1,.col-2,.col-3,.col-4,.col-5{
+    padding: 10px;
+}
+
+.section{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin-top: auto;
+    align-self: center;
+}
+
+@media (max-width:1000px){
+    .row{
+        display: inherit;
+    }
+
+    .col-1,.col-2,.col-3,.col-4,.col-5{
+        width:100%
+    }
+    
+}

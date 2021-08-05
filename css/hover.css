@@ -1,0 +1,43 @@
+
+.experiencia_title_CIMA:hover{
+    
+    cursor: pointer;
+    font-size: 21px;
+    transition: all .5s;
+   
+}
+
+.experiencia_title_TELCONET:hover{
+    
+    cursor: pointer;
+    font-size: 21px;
+    transition: all .5s;
+   
+}
+
+.experiencia_title_CNT:hover{
+    
+    cursor: pointer;
+    font-size: 21px;
+    transition: all .5s;
+   
+}
+
+
+.experiencia_title_ULTRATEL:hover{
+    
+    cursor: pointer;
+    font-size: 21px;
+    transition: all .5s;
+   
+}
+
+
+
+.uil-sort-amount-down:hover , .menu_icon:hover ,.bttonCloseJobs:hover {
+
+    cursor: pointer;
+   }
+
+
+  

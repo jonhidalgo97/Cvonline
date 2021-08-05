@@ -1,0 +1,37 @@
+html, body{
+    background-color: rgb(162, 154, 156);
+    color: rgb(255, 255, 255);
+    height: 100vh;
+   
+    justify-content: center;
+    display: flex;
+    
+   
+}
+
+.main_section{
+    /* margin-top: 8%;
+    margin-left: 25%; */
+    
+    text-align: center;
+    
+    height: 70vh;
+    width: 70vh;
+    color: rgb(255, 255, 255);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 35px;
+}
+
+ a{
+    
+    background-color: rgba(173, 216, 230, 0);
+    color: rgb(0, 247, 255);
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 35px;
+}
+section{
+    margin-right: -95px;
+    margin-top: -650px;
+    text-align: end;
+}
