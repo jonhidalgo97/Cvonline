@@ -213,7 +213,7 @@ nav h1{
 
 .skills_item2 {
     
-    margin-top: 50px;
+    margin-top: 60px;      
    position: absolute;
     
 
@@ -224,7 +224,12 @@ nav h1{
 .skills_container p{
  
     color: var(--Font-descrText-color);
+    
 
+}
+
+#unico{
+    margin-left: 50px;
 }
 
 .skill_name1{
