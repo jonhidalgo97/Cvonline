@@ -177,6 +177,7 @@ nav h1{
 }
 .about_info_text{
     
+    user-select: none;
     color: rgb(134, 111, 134);
     font-weight: bold;
     margin: 10px;
