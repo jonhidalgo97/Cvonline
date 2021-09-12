@@ -37,7 +37,23 @@ nav {
     height: 65px;
     background-color: rgba(79, 57, 158, 0.514);
     align-items: center;
+    transition: 1s;
     object-position: bottom;
+   
+
+}
+
+.nav_radius {
+    
+    
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+    background-color: rgba(79, 57, 158, 0.514);
+    align-items: center;
+    object-position: bottom;
+    transition: 1s;
+    border-radius: 40px 40px 0px 0px;
 
 }
 
@@ -71,6 +87,7 @@ nav h1{
     grid-template-columns: repeat(2,1fr);
     transition: 1s;
     row-gap: 20px  ;
+    
 
 }
 
@@ -78,6 +95,7 @@ nav h1{
 .__nav_options-item-container__clase_pa_closear{
 /* QUITAR ESTO PARA LA ANIMACION/*/ padding: 20px; 
    /* QUITAR ESTO PARA LA ANIMACION/*/ height: 60px;
+   
    transition: all 1s;
 
 }
@@ -86,7 +104,7 @@ nav h1{
    
     font-family: var(--font);           font-size: var(--Font-size-Nav);
     text-align: center;                 overflow: hidden;
-     color: rgb(12, 12, 12);      text-decoration: none;
+     color: rgb(255, 255, 255);      text-decoration: none;
     font-weight: bold;              
 }
 

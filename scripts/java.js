@@ -42,7 +42,8 @@ skillHeader.forEach ((el) => {
 //----------------------------  MENU SCRIPT ------------------------------
 
 const menuContainer = document.getElementsByClassName ('__nav_options-item-container'),
-menuBtton = document.getElementById ('doma');
+menuBtton = document.getElementById ('doma'),
+nav = document.getElementsByClassName('fadeIn');
 
 
 
@@ -56,11 +57,13 @@ function menufunc (){
     
            
         menuContainer[0].className = '__nav_options-item-container __nav_options-item-container__clase_pa_closear';
-            
+        nav[0].className = 'nav_radius fadeIn';
+ 
     
     }else{ for (let index = 0; index < menuContainer.length; index++) {
             
         menuContainer[0].className = '__nav_options-item-container';
+        nav[0].className = ' fadeIn';
      
 
     }}
