@@ -29,6 +29,19 @@
         object-position: top;
     
     }
+    .nav_radius {
+    
+    
+        display: flex;
+        justify-content: space-between;
+        height: 65px;
+        background-color: rgba(57, 143, 158, 0.664);
+        align-items: center;
+        object-position: bottom;
+        transition: 1s;
+        border-radius: 0px;
+    
+    }
 
     .__nav_options-item{
    
